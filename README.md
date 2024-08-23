@@ -1,7 +1,7 @@
 # WorkshopMongoDB
  Exercício Prático: Construção de API RESTful em Java com MongoDB
 
-Este repositório contém uma API RESTful desenvolvida em Java usando o framework Spring Boot e MongoDB como banco de dados. O projeto foi criado como um exercício prático para demonstrar a construção de uma API completa com operações CRUD (Create, Read, Update, Delete) e integração com MongoDB.
+Este projeto é uma API RESTful desenvolvida em Java usando o framework Spring Boot e MongoDB como banco. O projeto foi criado como um exercício prático para demonstrar a construção de uma API completa com operações CRUD (Create, Read, Update, Delete) e integração com MongoDB simulando um fórum virtual simplificado, com posts, comentários e seus usuários associados.
 
 ## Pré-requisitos
 Antes de executar a aplicação, certifique-se de ter os seguintes itens instalados:
@@ -80,7 +80,7 @@ Crie um arquivo application.properties dentro do diretório src/main/resources e
         minDate (Query Parameter): Data mínima no formato YYYY-MM-DD para o filtro.
         maxDate (Query Parameter): Data máxima no formato YYYY-MM-DD para o filtro.
     Resposta: Lista de objetos Post no formato JSON.
-    
+
 ## Documentação da API
 A documentação da API está disponível através do Swagger UI em:
 
